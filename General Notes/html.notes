@@ -10,3 +10,15 @@ Ideas: can i get in like 5 hours of study a day on work days. 8 on weekends mini
 TODO:
 Activity Log:
 9:11 - started rewatching videos for HTML.  Working in both this and HTML folder.
+
+[javascript]
+// opening tag
+<element>
+
+</element>
+// closing tag
+[end]
+
+HTML doesn't care about extra whitespace
+
+*inside elements/tags we can have text.
