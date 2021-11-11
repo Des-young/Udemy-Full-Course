@@ -25,11 +25,63 @@ HTML doesn't care about extra whitespace
 
 [2021-11-10]
 Notes:
-
-
+ open link in new tab: 
+ [html]
+ <a href="google.com" target="_blank">
+[end]
 
 Ideas:
 TODO:
 Activity Log:
 HTML 101: 38 - 44  studied. 
-HTML:45 - 
+HTML:45 -  47
+
+[2021-11-11]
+Notes:
+unsplash.com
+*images have no closing tag
+*if you don't add width/height the code will auto do that for you.
+[html]
+<img src="file" width="" height="" alt="text that shows to help describe what the image is">
+[end]
+*src can also point to an image on a webpage by making it a url
+* can be made into a link. Click on the pic to go there by adding a link element around the img element.
+
+
+50:
+* <br> = line break
+
+52:
+*ol - ordered list, ul - unordered list
+[html]
+<ol>
+<li></li>
+</ol>
+<ul>
+<li></li>
+</ul>
+[end]
+
+53:
+CSS within the HTML code 
+CSS = Cascading Style Sheets
+Allows you to put CSS into the HTML code.  Not a preferred code
+
+54:
+Javascript within the HTML code
+allows you to put javascript within the html coding
+
+56:
+Extra Support:
+FB: Learning to code
+CodePen
+
+Intermediate HTML
+59:
+
+
+Ideas:
+TODO:
+finish HTML today
+Activity Log:
+Sections 49 - 
