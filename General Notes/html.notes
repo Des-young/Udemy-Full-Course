@@ -77,7 +77,22 @@ FB: Learning to code
 CodePen
 
 Intermediate HTML
-59:
+59: add ID's to text/p/span to be able to link and move to separate parts of the page.
+
+60: icons for the page name 32x32 is ideal image size. 
+[html]
+<link rel="shortcut icon" href=".png" type="image/x-icon (whatever type you are using)">
+[end]
+
+62:
+Tables
+<table></table>
+<tr></tr> - table rows
+<td></td> - table data/cell
+
+
+ 
+
 
 
 Ideas:
