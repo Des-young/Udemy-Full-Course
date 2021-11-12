@@ -90,13 +90,52 @@ Tables
 <tr></tr> - table rows
 <td></td> - table data/cell
 
-
- 
-
-
-
 Ideas:
 TODO:
 finish HTML today
 Activity Log:
 Sections 49 - 
+
+[2021-11-12]
+Notes:
+6: 64
+
+colspan = how far one column can go  colspan="number"
+rowspan = merges rows  rowspan="number"
+
+6:65
+can change the width of individual cells
+
+6:66
+Table headers <th></th>
+
+6:67
+Inline CSS- by adding style="" attribute to a dive or element, you can add CSS styles to said div/element
+
+6:68
+HTML classes
+
+6:69
+HTML ID
+
+6:70
+HTML Formatting
+<pre></pre> - cares about white space.  Lines up text but doens't require a <br> tag
+<code></code> - lets you write code inside html
+
+6:72 - 77
+FORMS
+method - what you want your form to does
+<textarea> - Lets you write inside value="Whatever you put here will be the placeholder"
+can do cols & rows for textbox size.  Whitespace matters
+<button> - kinda obvious
+<select> -
+<input> - type="password" - makes it hidden
+
+
+Ideas:
+TODO:
+Activity Log:
+
+
+
