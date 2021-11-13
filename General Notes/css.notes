@@ -1,0 +1,58 @@
+[2021-11-13]
+Notes:
+8:117
+Outlines-
+outline: size type color;
+outline-offset: moves outline more outwards
+
+8:118
+Text Shadows -
+text-shadow: x (sides) y (down) blur color
+
+8:119
+Forcing min width.
+min-width: 
+the absolute minimum width a section on the page can take.
+
+8:125
+Controlling overflow - 
+can hide or scroll up/down/left/righ
+
+overflow: option you want. Auto is more often than not the better option.
+
+8:127
+Advanced Selectors -
+#parent (parent ID) .class {}
+#parent > .child {} - allows you to select the particular child element
+
+#parent .box + .box {} - will allow the selection of the parts adjacent to the chosen selector.
+
+8:128-129
+Intro to Pseudo -
+selector:hover {
+    in here you can change the background color or css interaction when you hover over the element
+}
+
+[css]
+selector:not {
+    what goes in here is either making sure something doesnt happen to this element or making sure something different happens
+}
+[end]
+
+[css]
+selector:nth-child(number we want to select) {
+    action in here
+}
+[end]
+
+8:130 - 8:131
+Pseudo Elements -
+
+selector::before, selector::after {
+
+}
+
+Ideas:
+TODO:
+Activity Log:
+8:117 - 
