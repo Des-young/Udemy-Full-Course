@@ -48,7 +48,11 @@ selector:nth-child(number we want to select) {
 8:130 - 8:131
 Pseudo Elements -
 
-selector::before, selector::after {
+selector::before {
+
+}
+
+ selector::after {
 
 }
 
@@ -56,3 +60,15 @@ Ideas:
 TODO:
 Activity Log:
 8:117 - 
+
+[2021-11-15]
+Notes:
+ [css]
+ .box::before {
+     content: ' '; Lets the code know there is something there. 
+     display:block; 
+ }
+ [end]
+Ideas:
+TODO:
+Activity Log:
