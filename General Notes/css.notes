@@ -69,6 +69,54 @@ Notes:
      display:block; 
  }
  [end]
+
+ 8:132-
+ First letter and first line Pseudo
+
+ Can target thr first line of Element.
+ 
 Ideas:
 TODO:
 Activity Log:
+
+
+[2021-11-16]
+Notes:
+8:132 -
+element::first-letter {
+    picks the first letter of the element on changes it according to CSS in here
+}
+
+element::first-line {
+    same as first-letter
+}
+
+8:133- 
+highlighting Text -
+::selection {
+}
+
+8:134 -
+Transitions 
+ within the curly brackets, use transition: type time(seconds) , other type time,
+
+8:136-
+Layering gradients and background.
+
+8:138- 
+Transformations:
+transform: translate(x-axis, y-axis)
+- moves where it sits on the page.
+
+transform: rotate(angle)
+
+transform: scale(percent) - grows
+
+transform: skew(xdeg, ydeg)
+
+
+
+Ideas:
+TODO:
+Activity Log:
+8:132-

@@ -16,6 +16,7 @@
     position: absolute;
     top: -30px;
     left: -30px;
+    transform: rotate(40deg);
 }
 
 .box::after {
@@ -25,8 +26,10 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    bottom: -30px;
-    left: -30px;
+    bottom: -10px;
+    left: -20px;
+    transform: rotate(10deg);
+    transform: scale(1.1);
 }
 
 a {
@@ -45,4 +48,34 @@ a::before {
 
 a:hover {
     font-size: 30px;
+    background-color: brown;
+}
+
+p::first-letter {
+    font-size: 30px;
+    color: blue;
+    float:left
+}
+
+::selection {
+    background-color: green;
+    color: azure;
+}
+
+a {
+    background-color: azure;
+    display: inline-block;
+    padding: 5px 15px;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    transition: background-color 2.2s;
+}
+
+body {
+    background-image: linear-gradient(180deg,
+     rgba(0,0,0,0.3) 0%,
+     rgba(0,0,0,0.8) 100%),
+      url("https://images.unsplash.com/photo-1637084785098-2da7c7294ab9?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8Ym84alFLVGFFMFl8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60");    
+      padding-top: 200px; 
 }
