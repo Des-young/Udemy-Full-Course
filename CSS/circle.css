@@ -1,0 +1,41 @@
+.circle {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border: 10px solid red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-name: moveLeft;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate-reverse; */
+}
+
+ @keyframes moveLeft {
+     0% {
+         top:0;
+         left:0;
+     }
+     25% {
+         top: 0;
+         left: 90%;
+         background-color: brown;
+     }
+     50% {
+         left: 90%;
+         top: 90%;
+         background-color: aqua;
+     }
+     75% {
+         left: 0%;
+         top: 90%;
+         background-color: gray;
+     }
+     100% {
+         bottom: 90%;
+         right: 90%;
+         background-color: aquamarine;
+     }
+ }

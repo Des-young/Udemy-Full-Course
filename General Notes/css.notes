@@ -114,6 +114,28 @@ transform: scale(percent) - grows
 
 transform: skew(xdeg, ydeg)
 
+8:139 -
+Animations:
+ 
+ @keyframes animationName {
+     from{
+         beginning style to be changed
+     }
+    
+    to {
+        how you want style changed
+    }
+    } 
+
+8:140 - 
+    FlexBox-
+    container {
+        display: flex;
+    }
+
+8:141 -
+Grid-
+
 
 
 Ideas:
