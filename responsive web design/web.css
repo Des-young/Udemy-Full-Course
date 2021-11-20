@@ -11,4 +11,18 @@ img {
     body {
         background-color: green;
        };
-};
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    border: 10px solid black;
+    margin: 50px auto;
+    border-radius: 0;
+}
+
+@media (max-width: 1000spx) and (min-width: 70px) {
+    .box {
+        border-radius: 50%;
+    }
+}

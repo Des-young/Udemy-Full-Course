@@ -21,6 +21,11 @@ Notes:
 9:145-
 Mobile first: setting the @media to min-width instead os max-width.
 desktop first: max-width instead of min-width
+
+9:149 -
+Flex-box-  * {
+    box-sizing: border-box;
+}
 Ideas:
 TODO:
 Activity Log:
