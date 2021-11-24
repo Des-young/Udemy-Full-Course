@@ -15,3 +15,38 @@ console.error("")
 Ideas:
 TODO:
 Activity Log:
+
+
+[2021-11-24]
+Notes:
+10: 163- 
+DATA TYPES
+str = "a string"
+num = 3
+flt (float) = 3.14
+bool = true;
+list = array
+notDefined = undefined (holds no value)
+thing = null;
+getAge = function() {return 31}
+obj = {key:value}
+
+10:164 -
+Conditional Statements -
+
+10:165-
+The DOM - look on google
+
+10:166 -
+Put the <script> link for JS at the bottom right nefore the </body> tag so that the DOM reads correctly
+
+10:167 - 
+Objects-
+ person = {
+     key:value;
+     key2:value2;
+ }
+
+Ideas:
+TODO:
+Activity Log:
